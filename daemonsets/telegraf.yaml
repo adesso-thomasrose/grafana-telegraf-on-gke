@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
         - name: telegraf
-          image: telegraf:1.1.1
+          image: telegraf:alpine
           volumeMounts:
             - mountPath: /etc/telegraf
               name: telegraf
